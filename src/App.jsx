@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import {ListPage, DetailsPage, NewRecord} from "./components";
+import {ListPage, DetailsPage, NewRecord} from "./pages";
 
 function App() {
   return (
