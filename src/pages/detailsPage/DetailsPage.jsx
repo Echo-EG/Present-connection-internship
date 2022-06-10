@@ -13,7 +13,7 @@ export const DetailsPage = () => {
 
     return (
         <Container className='container' maxWidth='lg'>
-            <Typography align='center' variant='h1'>Details page</Typography>
+            <Typography align='center' variant='h3'>Details page</Typography>
             <ListItem className='listItem'>
                         <ListItemText primary={`Title: ${detailsState.title}`} secondary={`Body: ${detailsState.body}`} ></ListItemText>
                         <div className='listItemBottom'>

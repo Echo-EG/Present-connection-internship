@@ -27,7 +27,7 @@ export const ListPage = () => {
     
     return (
         <Container className='container' maxWidth='lg'>
-            <Typography align='center' variant='h1'>List Page</Typography>
+            <Typography align='center' variant='h3'>List Page</Typography>
             <List className='notesList' >
                 {!notesState.list ? [] : notesState.list.map((notesList) =>{ 
                     return <ListItem onClick={() => getId(notesList.id)} className='listItem' key={notesList.id} id={notesList.id}>

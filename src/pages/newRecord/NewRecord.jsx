@@ -36,7 +36,7 @@ export const NewRecord = () => {
 
     return (
         <Container maxWidth='lg'>
-            <Typography align='center' variant='h1'>New record form</Typography>
+            <Typography align='center' variant='h3'>New record form</Typography>
             <form onSubmit={submit} >
                 <Grid container 
                 spacing={2} 
